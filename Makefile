@@ -6,8 +6,10 @@ init:
 clean:
 	rm -rf node-modules
 
+watch:
+	webpack -w
+
 serve:
-	webpack
 	node server.js
 
 
