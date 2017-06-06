@@ -6,7 +6,7 @@ var GreeterForm = require('GreeterForm');
 var Greeter = React.createClass({
   getDefaultProps: function(){
     return {
-      name: "React",
+      name: "Test",
       message: "This is from a component"
     }
   },
